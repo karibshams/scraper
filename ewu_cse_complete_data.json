@@ -1,92 +1,19 @@
 {
-  "scraped_at": "2025-11-25T02:13:30.611642",
-  "source_urls": [
-    "https://fse.ewubd.edu/computer-science-engineering",
-    "https://fse.ewubd.edu/computer-science-engineering/chairperson-massage"
-  ],
-  "homepage": {
-    "welcome_section": {},
-    "recent_notices": [],
-    "course_previews": [
-      "CSE246",
-      "CSE425",
-      "CSE370",
-      "CSE302",
-      "CSE110",
-      "CSE103",
-      "CSE106",
-      "CSE366",
-      "CSE471",
-      "CSE405",
-      "CSE207"
-    ]
+  "lab_facilities": {
+    "url": "https://fse.ewubd.edu/computer-science-engineering/lab-facilities",
+    "title": "Lab Facilities",
+    "introduction": "",
+    "labs": []
   },
-  "chairperson": {
-    "name": "Dr. Maheen Islam",
-    "title": "Department Chairperson",
-    "contact": {
-      "telephone": "09666775577",
-      "extension": "221",
-      "email": "maheen@ewubd.edu"
-    },
-    "welcome_message": "We welcome you on behalf of the faculty, staff, and students of the Department of Computer Science and Engineering (CSE) at the East West University (EWU). It is one of the few private universities in Bangladesh that has got a Permanent Certificate from the Ministry of Education by fulfilling all the criteria set for the status. CSE Department at EWU was founded in 1996 at the very beginning of the establishment of the university. CSE Department is now the second largest department of East West University. It has about 1200 students and 28 qualified full-time faculty members (11 faculties having Ph.D. degrees from reputed universities). Nevertheless, the present civilization cannot be thought without the use of Information Technology (IT) and IT Enabled Services ( ITES). IT/ITES are basically merging of many technologies, where CSE play the most vital role. We have been able to establish ourselves as a leading CSE department in the country. Our undergraduate program is highly competitive, and we have attracted talented candidates from the country. We have taken up all the challenges to produce quality graduates who can become leaders in the global arena and we are committed to educate the next generation of computer engineers for the nation.",
-    "programs_offered": [
-      "B.S. in Computer Science and Engineering",
-      "M.S. in Computer Science and Engineering"
-    ],
-    "vision": "To be internationally renowned in Computer Science and Engineering and to exalt excellence in education, research and industrial profession for sustainable transformation of the society.",
-    "mission": [
-      "To advance knowledge and learning of evolving challenges in Computer Science and Engineering through quality education and research towards the development of the society.",
-      "To sustain an outstanding hub dedicated to excellence in teaching, learning, and research and to become internationally recognized to meet national and international needs.",
-      "To enhance the quality of students with advanced knowledge and skills of Computer Science and Engineering to meet contemporary industrial requirements."
-    ],
-    "peo": {},
-    "faculty_count": "28 full-time faculty members",
-    "student_count": "About 1200 students",
-    "phd_faculty": "11 faculties with Ph.D. degrees",
-    "founded_year": "1996",
-    "accreditation": "BAETE of IEB",
-    "research_areas": [
-      "Software Systems",
-      "Information Systems",
-      "Intelligent Systems",
-      "Hardware Systems",
-      "Networking Systems"
-    ],
-    "alumni_companies": [
-      "Google",
-      "Microsoft",
-      "NVIDEA"
+  "tuition_fees": {
+    "url": "https://fse.ewubd.edu/computer-science-engineering/tuition-fees",
+    "title": "Tuition and Fees",
+    "tables": [],
+    "additional_info": [
+      "Home Home EWU Home CSE",
+      "Programs Undergraduate Programs Graduate Programs",
+      "Courses Core Courses Elective Courses",
+      "News & Events News Events"
     ]
-  },
-  "courses": [
-    {
-      "course_code": "CSE103",
-      "credits": {
-        "theory": "3",
-        "laboratory": "1.5",
-        "total": "4.5"
-      },
-      "prerequisite": "None",
-      "objective": "The purpose of this course is to introduce the students to computer programming using structured language. The students will be able to enhance their analyzing and problem-solving skills and use the same for writing programs using C language. Knowledge of this course will be needed as prerequisite knowledge for future courses such as",
-      "outcomes": [],
-      "contents": []
-    },
-    {
-      "course_code": "CSE103",
-      "credits": {},
-      "prerequisite": "",
-      "objective": "This course builds up the students’ ability to think and express logically and mathematically. The course will address mathematical reasoning, combinatorial analysis, algorithmic thinking, and discrete structures. Knowledge of this course will be needed as prerequisite knowledge for future courses such as CSE 110 Objected Oriented Programming,",
-      "outcomes": [],
-      "contents": []
-    },
-    {
-      "course_code": "CSE106",
-      "credits": {},
-      "prerequisite": "",
-      "objective": "This course presents a conceptual and practical introduction to object oriented programming (OOP). The course will cover general principles of programming in object oriented frameworks to enhance transferable skills, such as programming, designing, and problem-solving skills. This course introduces object oriented concepts and develops OOP programs which provides solutions to real world object oriented problems. Knowledge of this course will be needed as prerequisite knowledge for future courses, such as",
-      "outcomes": [],
-      "contents": []
-    }
-  ]
+  }
 }
