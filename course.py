@@ -188,7 +188,7 @@ def main():
         all_data[key] = scrape_courses_from_page(url)
     
     # Save JSON
-    output_filename = 'ewu_cse_courses_full_corrected_v2.json'
+    output_filename = 'new_ewu_cse_courses_full_corrected_v2.json'
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(all_data, f, ensure_ascii=False, indent=2)
     
