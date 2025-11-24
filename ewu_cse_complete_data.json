@@ -1,0 +1,2090 @@
+{
+  "department_info": {
+    "chairperson_name": "Chairperson's Message",
+    "chairperson_message": "Chairperson's Message Dr. Maheen Islam Faculty of Sciences and Engineering Chairperson & Associate Professor Department of Computer Science and Engineering We welcome you on behalf of the faculty, staff, and students of the Department of Computer Science and Engineering (CSE) at the East West University (EWU).. It is one of the few private universities in Bangladesh that has got a Permanent Certificate from the Ministry of Education by fulfilling all the criteria set for the status. Read More"
+  },
+  "faculty_members": [
+    {
+      "name": "Dr. Md. Mozammel Huq Azad Khan",
+      "designation": "Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mhakhan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Shamim H Ripon Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mhakhan"
+    },
+    {
+      "name": "Dr. Shamim H Ripon",
+      "designation": "Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/dshr"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Md. Nawab Yousuf Ali Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/dshr"
+    },
+    {
+      "name": "Dr. Md. Nawab Yousuf Ali",
+      "designation": "Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nawab"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Ahmed Wasif Reza Dean , Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nawab"
+    },
+    {
+      "name": "Dr. Ahmed Wasif Reza",
+      "designation": "Dean , Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/wasif"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Taskeed Jabid Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/wasif"
+    },
+    {
+      "name": "Dr. Taskeed Jabid",
+      "designation": "Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/taskeed"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Maheen Islam Chairperson , Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/taskeed"
+    },
+    {
+      "name": "Dr. Maheen Islam",
+      "designation": "Chairperson , Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/maheen"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Mohammad Rezwanul Huq Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/maheen"
+    },
+    {
+      "name": "Dr. Mohammad Rezwanul Huq",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mrhuq"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Anisur Rahman Associate Professor Proctor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mrhuq"
+    },
+    {
+      "name": "Dr. Anisur Rahman",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/anis"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Anup Kumar Paul Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/anis"
+    },
+    {
+      "name": "Dr. Anup Kumar Paul",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/anuppaul"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Sarwar Jahan Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/anuppaul"
+    },
+    {
+      "name": "Dr. Sarwar Jahan",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sjahan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Mohammad Salah Uddin Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sjahan"
+    },
+    {
+      "name": "Dr. Mohammad Salah Uddin",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/uddin"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Md Sawkat Ali Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/uddin"
+    },
+    {
+      "name": "Dr. Md Sawkat Ali",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/alim"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Raihan Ul Islam Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/alim"
+    },
+    {
+      "name": "Dr. Raihan Ul Islam",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/raihan.islam"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Md Mostofa Kamal Rasel Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/raihan.islam"
+    },
+    {
+      "name": "Dr. Md Mostofa Kamal Rasel",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mostofa.kamal"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Mohammad Rifat Ahmmad Rashid Associate Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mostofa.kamal"
+    },
+    {
+      "name": "Dr. Mohammad Rifat Ahmmad Rashid",
+      "designation": "Associate Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/rifat.rashid"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Mohammad Manzurul Islam Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/rifat.rashid"
+    },
+    {
+      "name": "Dr. Mohammad Manzurul Islam",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mohammad.islam"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Md. Hasanul Ferdaus Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mohammad.islam"
+    },
+    {
+      "name": "Dr. Md. Hasanul Ferdaus",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/hasanul.ferdaus"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Hasan Mahmood Aminul Islam Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/hasanul.ferdaus"
+    },
+    {
+      "name": "Dr. Hasan Mahmood Aminul Islam",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/hasan.mahmood"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Md. Atiqur Rahman Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/hasan.mahmood"
+    },
+    {
+      "name": "Dr. Md. Atiqur Rahman",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/atiqur.rahman"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Md. Tauhid Bin Iqbal Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/atiqur.rahman"
+    },
+    {
+      "name": "Dr. Md. Tauhid Bin Iqbal",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/tauhid.iqbal"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Tania Sultana Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/tauhid.iqbal"
+    },
+    {
+      "name": "Dr. Tania Sultana",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/tania.sultana"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Farhana Huq Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/tania.sultana"
+    },
+    {
+      "name": "Dr. Farhana Huq",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/farhana.huq"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Nafis Sadeq Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/farhana.huq"
+    },
+    {
+      "name": "Dr. Nafis Sadeq",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nafis.sadeq"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Hosney Jahan Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nafis.sadeq"
+    },
+    {
+      "name": "Dr. Hosney Jahan",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/hosney.jahan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Dr. Zubaer Ibna Mannan Assistant Professor View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/hosney.jahan"
+    },
+    {
+      "name": "Dr. Zubaer Ibna Mannan",
+      "designation": "Assistant Professor",
+      "profile_url": "https://fse.ewubd.edufaculty-view/zubaer.mannan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md. Sarwar Kamal Senior Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/zubaer.mannan"
+    },
+    {
+      "name": "Md. Sarwar Kamal",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/skamal"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Rashedul Amin Tuhin Senior Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/skamal"
+    },
+    {
+      "name": "Rashedul Amin Tuhin",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mcctuhin"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Surajit Das Barman Senior Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mcctuhin"
+    },
+    {
+      "name": "Surajit Das Barman",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/surajitbarman012"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Amit Kumar Das Senior Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/surajitbarman012"
+    },
+    {
+      "name": "Amit Kumar Das",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/akdas"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Tanni Mittra Senior Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/akdas"
+    },
+    {
+      "name": "Tanni Mittra",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/tanni"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Khan Mohammad Habibullah Senior Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/tanni"
+    },
+    {
+      "name": "Khan Mohammad Habibullah",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/h.rana10"
+    },
+    {
+      "name": "View Profile",
+      "designation": "M. Saddam Hossain Khan Senior Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/h.rana10"
+    },
+    {
+      "name": "M. Saddam Hossain Khan",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/saddam.cse"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Musharrat Khan Senior Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/saddam.cse"
+    },
+    {
+      "name": "Musharrat Khan",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/musharrat.khan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Mahamudul Hasan Senior Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/musharrat.khan"
+    },
+    {
+      "name": "Mahamudul Hasan",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mahamudul"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md. Mohsin Uddin Senior Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mahamudul"
+    },
+    {
+      "name": "Md. Mohsin Uddin",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mmuddin"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Jesan Ahammed Ovi Senior Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mmuddin"
+    },
+    {
+      "name": "Jesan Ahammed Ovi",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/jesan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md Al-Imran Senior Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/jesan"
+    },
+    {
+      "name": "Md Al-Imran",
+      "designation": "Senior Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/al.imran"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Sadia Nowrin Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/al.imran"
+    },
+    {
+      "name": "Sadia Nowrin",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sadia"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Kowshika Sarker Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sadia"
+    },
+    {
+      "name": "Kowshika Sarker",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/kowshika"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Muhit Islam Emon Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/kowshika"
+    },
+    {
+      "name": "Muhit Islam Emon",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/muhit.emon"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Yeasir Rayhan Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/muhit.emon"
+    },
+    {
+      "name": "Yeasir Rayhan",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/yrp111"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Mostofa Rafid Uddin Lecturer (On Study Leave) View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/yrp111"
+    },
+    {
+      "name": "Mostofa Rafid Uddin",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/rafid_duran"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md. Mahir Ashhab Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/rafid_duran"
+    },
+    {
+      "name": "Md. Mahir Ashhab",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mahir.ashhab"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Sadika Islam Sneha Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mahir.ashhab"
+    },
+    {
+      "name": "Sadika Islam Sneha",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sadika.sneha"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md. Khalid Mahbub Khan Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sadika.sneha"
+    },
+    {
+      "name": "Md. Khalid Mahbub Khan",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/khalid.khan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Amit Mandal Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/khalid.khan"
+    },
+    {
+      "name": "Amit Mandal",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/amit.mandal"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Nishat Tasnim Niloy Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/amit.mandal"
+    },
+    {
+      "name": "Nishat Tasnim Niloy",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nishat.niloy"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Mahmuda Rawnak Jahan Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nishat.niloy"
+    },
+    {
+      "name": "Mahmuda Rawnak Jahan",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mahmuda.jahan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Ahmed Abdal Shafi Rasel Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mahmuda.jahan"
+    },
+    {
+      "name": "Ahmed Abdal Shafi Rasel",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/ahmed.shafi"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Sadia Nur Amin Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/ahmed.shafi"
+    },
+    {
+      "name": "Sadia Nur Amin",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sadian.amin"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Fouzia Risdin Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sadian.amin"
+    },
+    {
+      "name": "Fouzia Risdin",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/fouzia.risdin"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md. Arman Hossain Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/fouzia.risdin"
+    },
+    {
+      "name": "Md. Arman Hossain",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/arman.hossain"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Puja Chakraborty Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/arman.hossain"
+    },
+    {
+      "name": "Puja Chakraborty",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/puja.chakraborty"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Khairum Islam Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/puja.chakraborty"
+    },
+    {
+      "name": "Khairum Islam",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/khairum.islam"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Nishat Tasnim Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/khairum.islam"
+    },
+    {
+      "name": "Nishat Tasnim",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nishat.tasnim"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md. Ashraful Haider Chowdhury Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nishat.tasnim"
+    },
+    {
+      "name": "Md. Ashraful Haider Chowdhury",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/ashraful.chowdhury"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md. Asif Khan Rifat Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/ashraful.chowdhury"
+    },
+    {
+      "name": "Md. Asif Khan Rifat",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/asif.rifat"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md Sabbir Hossain Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/asif.rifat"
+    },
+    {
+      "name": "Md Sabbir Hossain",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sabbir.hossain"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Yasin Sazid Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sabbir.hossain"
+    },
+    {
+      "name": "Yasin Sazid",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/yasin.sazid"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Rabea Khatun Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/yasin.sazid"
+    },
+    {
+      "name": "Rabea Khatun",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/rabea.khatun"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Shatabdi Roy Moon Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/rabea.khatun"
+    },
+    {
+      "name": "Shatabdi Roy Moon",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/shatabdi.moon"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Sanzana Karim Lora Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/shatabdi.moon"
+    },
+    {
+      "name": "Sanzana Karim Lora",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sanzana.lora"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Mahmudul Islam Rakib Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/sanzana.lora"
+    },
+    {
+      "name": "Mahmudul Islam Rakib",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mahmudul.rakib"
+    },
+    {
+      "name": "View Profile",
+      "designation": "K. M. Safin Kamal Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/mahmudul.rakib"
+    },
+    {
+      "name": "K. M. Safin Kamal",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/safin.kamal"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Md. Adnan Morshed Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/safin.kamal"
+    },
+    {
+      "name": "Md. Adnan Morshed",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/adnan.morshed"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Asraf Ullah Rahat Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/adnan.morshed"
+    },
+    {
+      "name": "Asraf Ullah Rahat",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/asraf.rahat"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Antu Chowdhury Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/asraf.rahat"
+    },
+    {
+      "name": "Antu Chowdhury",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/antu.chowdhury"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Tahsin Tariq Banna Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/antu.chowdhury"
+    },
+    {
+      "name": "Tahsin Tariq Banna",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/tahsin.banna"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Muhammed Yaseen Morshed Adib Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/tahsin.banna"
+    },
+    {
+      "name": "Muhammed Yaseen Morshed Adib",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/muhammed.adib"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Nahid Hasan Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/muhammed.adib"
+    },
+    {
+      "name": "Nahid Hasan",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nahid.hasan"
+    },
+    {
+      "name": "View Profile",
+      "designation": "Syed Jamiul Alam Lecturer View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/nahid.hasan"
+    },
+    {
+      "name": "Syed Jamiul Alam",
+      "designation": "Lecturer",
+      "profile_url": "https://fse.ewubd.edufaculty-view/syed.alam"
+    },
+    {
+      "name": "View Profile",
+      "profile_url": "https://fse.ewubd.edufaculty-view/syed.alam"
+    }
+  ],
+  "courses": {
+    "core_courses": [],
+    "elective_courses": []
+  },
+  "programs": {
+    "undergraduate": {
+      "description": "",
+      "curriculum": [
+        {
+          "PEO1": "PEO2",
+          "Graduates will establish themselves as leading computational professionals and/or entrepreneurs; and continue to learn and address evolving challenges in Computer Science and Engineering.": "Graduates will engage themselves in lifelong pursuit of knowledge and interdisciplinary learning for industrial, research, and academic careers and/or leadership and entrepreneurship development."
+        },
+        {
+          "PEO1": "PEO3",
+          "Graduates will establish themselves as leading computational professionals and/or entrepreneurs; and continue to learn and address evolving challenges in Computer Science and Engineering.": "Graduates will contribute to sustainable development and the well-being of the society through the use of Computer Science and Engineering principles, practices and tools in an ethical and responsible manner."
+        },
+        {
+          "PO": "PO1: Engineering Knowledge",
+          "Description": "Apply knowledge of mathematics, natural sciences, engineering fundamentals and an engineering specialization as specified in K1 to K4 respectively to the solution of complex computer science and engineering problems (EP1 to EP7)."
+        },
+        {
+          "PO": "PO2: Problem Analysis",
+          "Description": "Identify, formulate, research literature and analyze complex computer science and engineering problems (EP1 to EP7) reaching substantiated conclusions using first principles of mathematics, natural sciences and engineering sciences. (K1 to K4)"
+        },
+        {
+          "PO": "PO3: Design/ Development of Solutions",
+          "Description": "Design solutions for complex computer science and engineering problems (EP1 to EP7) and design systems, components or processes that meet specified needs with appropriate consideration for public health and safety, cultural, societal, and environmental considerations. (K5)"
+        },
+        {
+          "PO": "PO4: Investigation",
+          "Description": "Conduct investigations of complex computer science and engineering problems (EP1 to EP7) using research-based knowledge (K8) and research methods including design of experiments, analysis and interpretation of data, and synthesis of information to provide valid conclusions."
+        },
+        {
+          "PO": "PO5: Modern Tool Usage",
+          "Description": "Create, select and apply appropriate techniques, resources, and modern engineering and IT tools, including prediction and modeling, to complex computer science and engineering problems (EP1 to EP7), with an understanding of the limitations. (K6)"
+        },
+        {
+          "PO": "PO6: The Engineer and Society",
+          "Description": "Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to professional computer science and engineering practice and solutions to complex computer science and engineering problems (EP1 to EP7). (K7)"
+        },
+        {
+          "PO": "PO7: Environment and Sustainability",
+          "Description": "Understand and evaluate the sustainability and impact of professional computer science and engineering work in the solution of complex computer science and engineering problems (EP1 to EP7) in societal and environmental contexts. (K7)"
+        },
+        {
+          "PO": "PO8: Ethics",
+          "Description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of computer science and engineering practice. (K7)"
+        },
+        {
+          "PO": "PO9: Individual Work and Teamwork",
+          "Description": "Function effectively as an individual, and as a member or leader in diverse teams and in multi-disciplinary settings."
+        },
+        {
+          "PO": "PO10: Communication",
+          "Description": "Communicate effectively on complex computer science and engineering activities (EA1 to EA5) with the computer science and engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+        },
+        {
+          "PO": "PO11: Project Management and Finance",
+          "Description": "Demonstrate knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+        },
+        {
+          "PO": "PO12: Life-Long Learning",
+          "Description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+        },
+        {
+          "Program Outcomes (POs)": "",
+          "": "PEO1",
+          "Program Educational Objectives (PEOs)": "PEO2"
+        },
+        {
+          "Program Outcomes (POs)": "PO1: Engineering Knowledge",
+          "": "",
+          "Program Educational Objectives (PEOs)": "X"
+        },
+        {
+          "Program Outcomes (POs)": "PO2: Problem Analysis",
+          "": "",
+          "Program Educational Objectives (PEOs)": "X"
+        },
+        {
+          "Program Outcomes (POs)": "PO3: Design/Development of Solutions",
+          "": "",
+          "Program Educational Objectives (PEOs)": "X"
+        },
+        {
+          "Program Outcomes (POs)": "PO4: Investigation",
+          "": "",
+          "Program Educational Objectives (PEOs)": ""
+        },
+        {
+          "Program Outcomes (POs)": "PO5: Modern Tool Usage",
+          "": "",
+          "Program Educational Objectives (PEOs)": ""
+        },
+        {
+          "Program Outcomes (POs)": "PO6: The Engineer and Society",
+          "": "",
+          "Program Educational Objectives (PEOs)": ""
+        },
+        {
+          "Program Outcomes (POs)": "PO7: Environment and Sustainability",
+          "": "",
+          "Program Educational Objectives (PEOs)": ""
+        },
+        {
+          "Program Outcomes (POs)": "PO8: Ethics",
+          "": "",
+          "Program Educational Objectives (PEOs)": ""
+        },
+        {
+          "Program Outcomes (POs)": "PO9: Individual Work and Teamwork",
+          "": "",
+          "Program Educational Objectives (PEOs)": ""
+        },
+        {
+          "Program Outcomes (POs)": "PO10: Communication",
+          "": "",
+          "Program Educational Objectives (PEOs)": "X"
+        },
+        {
+          "Program Outcomes (POs)": "PO11: Project Management and Finance",
+          "": "",
+          "Program Educational Objectives (PEOs)": ""
+        },
+        {
+          "Program Outcomes (POs)": "PO12: Life-Long Learning",
+          "": "",
+          "Program Educational Objectives (PEOs)": ""
+        },
+        {
+          "Knowledge Profile": "K1: Theory-based natural sciences",
+          "Attribute": "A systematic, theory-based understanding of the natural sciences applicable to the discipline"
+        },
+        {
+          "Knowledge Profile": "K2: Conceptually-based mathematics, numerical analysis, statistics, and formal aspects of computer and information science",
+          "Attribute": "Conceptually based mathematics, numerical analysis, statistics and the formal aspects of computer and information science to support analysis and modeling applicable to the discipline"
+        },
+        {
+          "Knowledge Profile": "K3: Theory-based engineering fundamentals",
+          "Attribute": "A systematic, theory-based formulation of engineering fundamentals required in the engineering discipline"
+        },
+        {
+          "Knowledge Profile": "K4: Forefront engineering specialist knowledge for practice",
+          "Attribute": "Engineering specialist knowledge that provides theoretical frameworks and bodies of knowledge for the accepted practice areas in the engineering discipline; much is at the forefront of the discipline"
+        },
+        {
+          "Knowledge Profile": "K5: Engineering design",
+          "Attribute": "Knowledge that supports engineering design in a practice area"
+        },
+        {
+          "Knowledge Profile": "K6: Engineering practice (technology)",
+          "Attribute": "Knowledge of engineering practice (technology) in the practice areas in the engineering discipline"
+        },
+        {
+          "Knowledge Profile": "K7: Comprehension of engineering in society",
+          "Attribute": "Comprehension of the role of engineering in society and identified issues in engineering practice in the discipline: ethics and the engineer’s professional responsibility to public safety; the impacts of engineering activity; economic, social, cultural, environmental and sustainability"
+        },
+        {
+          "Knowledge Profile": "K8: Research literature",
+          "Attribute": "Engagement with selected knowledge in the research literature of the discipline"
+        },
+        {
+          "Attribute": "EP1: Depth of knowledge required",
+          "Characteristics of Complex Engineering Problems": "Cannot be resolved without in-depth engineering knowledge at the level of one or more of K3, K4, K5, K6, or K8 which allows a fundamental-based, first principles analytical approach"
+        },
+        {
+          "Attribute": "EP2: Range of conflicting requirements",
+          "Characteristics of Complex Engineering Problems": "Involve wide-ranging or conflicting technical, engineering and other issues"
+        },
+        {
+          "Attribute": "EP3: Depth of analysis required",
+          "Characteristics of Complex Engineering Problems": "Have no obvious solution and require abstract thinking, originality in analysis to formulate suitable models"
+        },
+        {
+          "Attribute": "EP4: Familiarity of issues",
+          "Characteristics of Complex Engineering Problems": "Involve infrequently encountered issues"
+        },
+        {
+          "Attribute": "EP5: Extent of applicable codes",
+          "Characteristics of Complex Engineering Problems": "Are outside problems encompassed by standards and codes of practice for professional engineering"
+        },
+        {
+          "Attribute": "EP 6: Extent of stakeholder involvement and conflicting requirements",
+          "Characteristics of Complex Engineering Problems": "Involve diverse groups of stakeholders with widely varying needs"
+        },
+        {
+          "Attribute": "EP7: Interdependence",
+          "Characteristics of Complex Engineering Problems": "Are high level problems including many component parts or sub-problems"
+        },
+        {
+          "Attribute": "EA1: Range of resources",
+          "Characteristics of Complex Engineering Activities": "Involve the use of diverse resources (for this purpose, resources include people, money, equipment, materials, information and technologies)"
+        },
+        {
+          "Attribute": "EA2: Level of interaction",
+          "Characteristics of Complex Engineering Activities": "Require resolution of significant problems arising from interactions between wide-ranging or conflicting technical, engineering or other issues"
+        },
+        {
+          "Attribute": "EA3: Innovation",
+          "Characteristics of Complex Engineering Activities": "Involve creative use of engineering principles and research-based knowledge in novel ways"
+        },
+        {
+          "Attribute": "EA4: Consequences for society and the environment",
+          "Characteristics of Complex Engineering Activities": "Have significant consequences in a range of contexts, characterized by difficulty of prediction and mitigation"
+        },
+        {
+          "Attribute": "EA5: Familiarity",
+          "Characteristics of Complex Engineering Activities": "Can extend beyond previous experiences by applying principle-based approaches"
+        },
+        {
+          "Course Category": "Compulsory Language and General Education Courses",
+          "Credits": "9"
+        },
+        {
+          "Course Category": "Elective General Education Courses",
+          "Credits": "9"
+        },
+        {
+          "Course Category": "Compulsory Basic Science Courses",
+          "Credits": "11"
+        },
+        {
+          "Course Category": "Compulsory Mathematics and Statistics Courses",
+          "Credits": "15"
+        },
+        {
+          "Course Category": "Core Computer Science and Engineering Courses",
+          "Credits": "62"
+        },
+        {
+          "Course Category": "Core Capstone Project",
+          "Credits": "6"
+        },
+        {
+          "Course Category": "Major Compulsory and Elective Computer Science and Engineering Courses",
+          "Credits": "20"
+        },
+        {
+          "Course Category": "Non-major Elective Computer Science and Engineering Courses",
+          "Credits": "8"
+        },
+        {
+          "Course Category": "Total",
+          "Credits": "140"
+        },
+        {
+          "Course": "Compulsory Language and General Education Courses",
+          "Credits": "9",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "ENG101 Basic English",
+          "Credits": "3",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "ENG 102 Composition and Communication Skills",
+          "Credits": "3",
+          "Prerequisite": "ENG101"
+        },
+        {
+          "Course": "GEN226 Emergence of Bangladesh",
+          "Credits": "3",
+          "Prerequisite": "ENG102"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Elective General Education Courses",
+          "Credits": "9",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Social Science Courses (any one course)",
+          "Credits": "3",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "ECO101 Principle of Microeconomics",
+          "Credits": "3",
+          "Prerequisite": "None"
+        },
+        {
+          "Course": "GEN203 Ecological System and Environment",
+          "Credits": "3",
+          "Prerequisite": "None"
+        },
+        {
+          "Course": "GEN214 Development Studies",
+          "Credits": "3",
+          "Prerequisite": "ENG102"
+        },
+        {
+          "Course": "SOC317 Sociology of Science and Technology",
+          "Credits": "3",
+          "Prerequisite": "None"
+        },
+        {
+          "Course": "Arts and Humanities Courses (any one course)",
+          "Credits": "3",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "GEN201 Bangladesh Studies",
+          "Credits": "3",
+          "Prerequisite": "ENG102"
+        },
+        {
+          "Course": "GEN204 Western Thought",
+          "Credits": "3",
+          "Prerequisite": "None"
+        },
+        {
+          "Course": "GEN210 International Relation",
+          "Credits": "3",
+          "Prerequisite": "ENG102"
+        },
+        {
+          "Course": "SOC211 Eastern Culture and Heritage",
+          "Credits": "3",
+          "Prerequisite": "None"
+        },
+        {
+          "Course": "SOC217 Religion, Ethnicity, Culture and Development in South Asia",
+          "Credits": "3",
+          "Prerequisite": "ENG102"
+        },
+        {
+          "Course": "Business Courses (any one course)",
+          "Credits": "3",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "ACT101 Financial Accounting",
+          "Credits": "3",
+          "Prerequisite": "None"
+        },
+        {
+          "Course": "BUS321 Business for Engineering and Technology",
+          "Credits": "3",
+          "Prerequisite": "ENG102"
+        },
+        {
+          "Course": "BUS231 Business Communication",
+          "Credits": "3",
+          "Prerequisite": "ENG102"
+        },
+        {
+          "Course": "MGT321 Industrial Management",
+          "Credits": "3",
+          "Prerequisite": "ENG102"
+        },
+        {
+          "Course": "MGT337 Production Operations Management",
+          "Credits": "3",
+          "Prerequisite": "STA102"
+        },
+        {
+          "Course": "FIN101 Principle of Finance",
+          "Credits": "3",
+          "Prerequisite": "STA102"
+        },
+        {
+          "Course": "MKT101 Principle of Marketing",
+          "Credits": "3",
+          "Prerequisite": "None"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Compulsory Natural Science Courses",
+          "Credits": "9+2=11",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "PHY109 Engineering Physics-I (Introductory Classical Physics)",
+          "Credits": "3+1=4",
+          "Prerequisite": "MAT102"
+        },
+        {
+          "Course": "PHY209 Engineering Physics-II (Introductory Quantum Physics)",
+          "Credits": "3+0=3",
+          "Prerequisite": "MAT205"
+        },
+        {
+          "Course": "CHE109 Engineering Chemistry",
+          "Credits": "3+1=4",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Compulsory Mathematics and Statistics Courses",
+          "Credits": "15",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "MAT101 Differential and Integral Calculus",
+          "Credits": "3",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "MAT102 Differential Equations and Special Functions",
+          "Credits": "3",
+          "Prerequisite": "MAT101"
+        },
+        {
+          "Course": "MAT104 Coordinate Geometry and Vector Analysis",
+          "Credits": "3",
+          "Prerequisite": "MAT101"
+        },
+        {
+          "Course": "MAT205 Linear Algebra and Complex Variable",
+          "Credits": "3",
+          "Prerequisite": "MAT102"
+        },
+        {
+          "Course": "STA102 Statistics and Probability",
+          "Credits": "3",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Core Computer Science and Engineering Courses",
+          "Credits": "48+14=62",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE103 Structured Programming",
+          "Credits": "3+1.5=4.5",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE106 Discrete Mathematics",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE103"
+        },
+        {
+          "Course": "CSE110 Object Oriented Programming",
+          "Credits": "3+1.5=4.5",
+          "Prerequisite": "CSE106"
+        },
+        {
+          "Course": "CSE200 Computer-Aided Engineering Drawing",
+          "Credits": "0+1=1",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE209 Electrical Circuits",
+          "Credits": "3+1=4",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE207 Data Structures",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE110"
+        },
+        {
+          "Course": "CSE251 Electronic Circuits",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE209"
+        },
+        {
+          "Course": "CSE246 Algorithms",
+          "Credits": "3+1.5=4.5",
+          "Prerequisite": "CSE207"
+        },
+        {
+          "Course": "CSE302 Database Systems",
+          "Credits": "3+1.5=4.5",
+          "Prerequisite": "CSE106"
+        },
+        {
+          "Course": "CSE325 Operating Systems",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE207"
+        },
+        {
+          "Course": "CSE345 Digital Logic Design",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE251"
+        },
+        {
+          "Course": "CSE347 Information System Analysis and Design",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE302"
+        },
+        {
+          "Course": "CSE360 Computer Architecture",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE325"
+        },
+        {
+          "Course": "CSE405 Computer Networks",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE407 Green Computing",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE405"
+        },
+        {
+          "Course": "CSE487 Cyber Security, Ethics and Law",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE405"
+        },
+        {
+          "Course": "CSE495 IT Project Management and Entrepreneurship",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE347"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Core Capstone Project",
+          "Credits": "0+6=6",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE400 Capstone Project",
+          "Credits": "0+6=6",
+          "Prerequisite": "Completed at least 105 credit hours"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Major Requirements",
+          "Credits": "Courses from the selected major area"
+        },
+        {
+          "Course": "Student should select one of the four major areas for degree major requirement",
+          "Credits": "Two Compulsory courses (6+2=8 credits)",
+          "Prerequisite": "Three elective courses (9+3=12 credits)"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Non-Major Elective Requirements"
+        },
+        {
+          "Course": "Minimum 8 credits ( two to three courses depending on credits of the courses) from one or more major/non-major areas other than the selected major area"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Four Major Areas and Courses (2 Compulsory and 3 Elective Courses)",
+          "Credits": "15+5=20",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "1. Intelligent Systems and Data Science",
+          "Credits": "15+5=20",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Compulsory Courses",
+          "Credits": "6+2=8",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE303 Statistics for Data Science",
+          "Credits": "3+1=4",
+          "Prerequisite": "STA102"
+        },
+        {
+          "Course": "CSE366 Artificial Intelligence",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "Elective Courses (Any 3 Courses)",
+          "Credits": "9+3=12",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE420 Computer Graphics",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE438 Digital Image Processing",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE445 Computer Vision",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE452 Distributed Systems and Algorithms",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE325"
+        },
+        {
+          "Course": "CSE474 Pattern Recognition",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE366"
+        },
+        {
+          "Course": "CSE475 Machine Learning",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE366"
+        },
+        {
+          "Course": "CSE477 Data Mining",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE366"
+        },
+        {
+          "Course": "CSE481 Nature-Inspired Computing",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE486 Bioinformatics Algorithms",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE488 Big Data Analytics",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE302"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "2. Software Engineering",
+          "Credits": "15+5=20",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Compulsory Courses",
+          "Credits": "6+2=8",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE412 Software Engineering",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE347"
+        },
+        {
+          "Course": "CSE430 Software Testing and Quality Assurance",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE412"
+        },
+        {
+          "Course": "Elective Courses (Any 3 Courses)",
+          "Credits": "9+3=12",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE422 Simulation and Modeling",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE423 Software Architecture",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE412"
+        },
+        {
+          "Course": "CSE428 Human Computer Interactions",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE412"
+        },
+        {
+          "Course": "CSE452 Distributed Systems and Algorithms",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE325"
+        },
+        {
+          "Course": "CSE464 Advanced Database System",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE302"
+        },
+        {
+          "Course": "CSE479 Web Programming",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE302"
+        },
+        {
+          "Course": "CSE489 Mobile Programming",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "3. Communications and Networking",
+          "Credits": "15+5=20",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Compulsory Courses",
+          "Credits": "6+2=8",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE350 Data Communications",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE251"
+        },
+        {
+          "Course": "CSE432 Digital Signal Processing",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "Elective Courses (Any 3 Courses)",
+          "Credits": "9+3=12",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE452 Distributed Systems and Algorithms",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE325"
+        },
+        {
+          "Course": "CSE453Wireless Networks",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE405"
+        },
+        {
+          "Course": "CSE457 Cellular Networks",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE405"
+        },
+        {
+          "Course": "CSE472 Advanced Network Services and Management",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE405"
+        },
+        {
+          "Course": "CSE473 Network Security and Systems",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE405"
+        },
+        {
+          "Course": "CSE489 Mobile Programming",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "4. Hardware Engineering",
+          "Credits": "15+5=20",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Compulsory Courses",
+          "Credits": "6+2=8",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE355 Digital System Design",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE345"
+        },
+        {
+          "Course": "CSE442 Microprocessors and Microcontrollers",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE360"
+        },
+        {
+          "Course": "Elective Courses (Any 3 Courses)",
+          "Credits": "9+3=12",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE406 Internet of Things",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE405"
+        },
+        {
+          "Course": "CSE446 ASIC Design Using FPGA",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE345"
+        },
+        {
+          "Course": "CSE491 VLSI Design",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE345"
+        },
+        {
+          "Course": "CSE492 Robotics",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE366"
+        },
+        {
+          "Course": "CSE494 Embedded Systems",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE442"
+        },
+        {
+          "Course": "",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "Non-Major Area: Computational Theory",
+          "Credits": "",
+          "Prerequisite": ""
+        },
+        {
+          "Course": "CSE225 Numerical Methods",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE103"
+        },
+        {
+          "Course": "CSE313 Theory of Computations",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE460 Cryptography",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE471 Compiler Design",
+          "Credits": "3+1=4",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE483 Graph Theory",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "Course": "CSE484 Computational Geometry",
+          "Credits": "3+0=3",
+          "Prerequisite": "CSE246"
+        },
+        {
+          "": "",
+          "1st Year": "Course (Credit)",
+          "2nd Year": "Pre-requisite",
+          "3rd Year": "Course",
+          "4th Year": "Pre-requisite"
+        },
+        {
+          "": "1st Semester",
+          "1st Year": "ENG101 Basic English (3)",
+          "2nd Year": "",
+          "3rd Year": "GEN226 Emergence of Bangladesh (3)",
+          "4th Year": "ENG102"
+        },
+        {
+          "": "MAT101 Differential and Integral Calculus (3)",
+          "1st Year": "",
+          "2nd Year": "STA102 Statistics and Probability (3)",
+          "3rd Year": "",
+          "4th Year": "CSE246 Algorithms (3+1.5=4.5)"
+        },
+        {
+          "": "CSE103 Structured Programming (3+1.5=4.5)",
+          "1st Year": "",
+          "2nd Year": "CSE200 Computer-Aided Engineering Drawing (0+1=1)",
+          "3rd Year": "",
+          "4th Year": "CSE302 Database Systems (3+1.5=4.5)"
+        },
+        {
+          "": "",
+          "1st Year": "",
+          "2nd Year": "CSE209 Electrical Circuits (3+1=4)",
+          "3rd Year": "",
+          "4th Year": ""
+        },
+        {
+          "": "2nd Semester",
+          "1st Year": "ENG102 Composition And Communication Skills (3)",
+          "2nd Year": "ENG101",
+          "3rd Year": "Elective General Education-I (3)",
+          "4th Year": ""
+        },
+        {
+          "": "MAT102 Differential Equations and Special Functions (3)",
+          "1st Year": "MAT101",
+          "2nd Year": "MAT205 Linear Algebra and Complex Variables (3)",
+          "3rd Year": "MAT102",
+          "4th Year": "CSE347 Information System Analysis and Design (3+1=4)"
+        },
+        {
+          "": "CSE106 Discrete Mathematics (3+0=3)",
+          "1st Year": "CSE103",
+          "2nd Year": "CSE207 Data Structures (3+1=4)",
+          "3rd Year": "CSE110",
+          "4th Year": "Compulsory Major-I (3+1=4)"
+        },
+        {
+          "": "CHE109 Engineering Chemistry (3+1=4)",
+          "1st Year": "",
+          "2nd Year": "CSE251 Electronic Circuits (3+1=4)",
+          "3rd Year": "CSE209",
+          "4th Year": ""
+        },
+        {
+          "": "3rd Semester",
+          "1st Year": "PHY109 Engineering Physics-I (3+1=4)",
+          "2nd Year": "MAT102",
+          "3rd Year": "Elective General Education-II (3)",
+          "4th Year": ""
+        },
+        {
+          "": "MAT104 Coordinate Geometry and Vector Analysis (3)",
+          "1st Year": "MAT101",
+          "2nd Year": "PHY209 Engineering Physics-II (3+0=3)",
+          "3rd Year": "MAT205",
+          "4th Year": "CSE 405 Computer Networks (3+1=4)"
+        },
+        {
+          "": "CSE110 Object Oriented Programming (3+1.5=4.5)",
+          "1st Year": "CSE106",
+          "2nd Year": "CSE325 Operating Systems (3+1=4)",
+          "3rd Year": "CSE207",
+          "4th Year": "Compulsory Major-II (3+1=4)"
+        },
+        {
+          "": "Year-Credit",
+          "1st Year": "35",
+          "2nd Year": "",
+          "3rd Year": "35",
+          "4th Year": ""
+        }
+      ],
+      "requirements": [],
+      "structure": []
+    },
+    "graduate": {
+      "description": "",
+      "curriculum": [
+        {
+          "Name of Programs": "MS in CSE",
+          "Total Credit": "40.0",
+          "Fee per Credit": "6,000/=",
+          "Tuition Fees": "240,000/=",
+          "Lab & Activities Fees": "9,060/=",
+          "Admission Fee": "20,000/=",
+          "Grand Total": "269,060/="
+        },
+        {
+          "Course Category": "Compulsory Courses for all Major Areas",
+          "Number of Courses": "3",
+          "Credit": "9"
+        },
+        {
+          "Course Category": "Compulsory Courses from Major Area",
+          "Number of Courses": "2",
+          "Credit": "6"
+        },
+        {
+          "Course Category": "Elective Courses from Major Area",
+          "Number of Courses": "3",
+          "Credit": "9"
+        },
+        {
+          "Course Category": "Master Thesis",
+          "Number of Courses": "",
+          "Credit": "9"
+        },
+        {
+          "Course Category": "Total",
+          "Number of Courses": "",
+          "Credit": "33"
+        },
+        {
+          "Course Category": "Compulsory Courses for all Major Areas",
+          "Number of Courses": "3",
+          "Credit": "9"
+        },
+        {
+          "Course Category": "Compulsory Courses from Major Area",
+          "Number of Courses": "2",
+          "Credit": "6"
+        },
+        {
+          "Course Category": "Elective Courses from Major Area",
+          "Number of Courses": "5",
+          "Credit": "15"
+        },
+        {
+          "Course Category": "Master Project",
+          "Number of Courses": "",
+          "Credit": "3"
+        },
+        {
+          "Course Category": "Total",
+          "Number of Courses": "",
+          "Credit": "33"
+        },
+        {
+          "Compulsory Courses for all Major Areas": "Non-credit pre-requisite (if not done in the Bachelor program)",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "Compulsory Courses for all Major Areas": "CSE503 Data Structures",
+          "Credit": "3",
+          "Comment": "Pass or Fail"
+        },
+        {
+          "Compulsory Courses for all Major Areas": "Compulsory Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "Compulsory Courses for all Major Areas": "CSE504 Algorithms",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "Compulsory Courses for all Major Areas": "CSE505 Database Systems",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "Compulsory Courses for all Major Areas": "CSE596 IT Project Management and Entrepreneurship",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "Non-credit pre-requisite (if not done in the Bachelor program)",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE506 Artificial Intelligence",
+          "Credit": "3",
+          "Comment": "Pass or Fail"
+        },
+        {
+          "1. Major Area: Data Science": "Compulsory Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE520 Statistics for Data Science",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE521 Machine Learning",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "Elective Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE522 Data Mining",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE523 Digital Image Processing",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE524 Computer Vision",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE525 Pattern Recognition",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE526 Bioinformatics Algorithms",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE527 Big Data Analytics",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "1. Major Area: Data Science": "CSE560 Distributed Systems and Algorithms",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "Non-credit pre-requisite (if not done in the Bachelor program)",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE507 Information System Analysis and Design",
+          "Credit": "3",
+          "Comment": "Pass or Fail"
+        },
+        {
+          "2. Major Area: Software Engineering": "Compulsory Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE550 Software Engineering",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE551 Software Testing and Quality Assurance",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "Elective Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE552 Simulation and Modeling",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE553 Software Architecture",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE554 Human Computer Interactions",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE555 Advanced Database System",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE556 Web Programming",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE560 Distributed Systems and Algorithms",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE565 Mobile Programming",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE521 Machine Learning",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE522 Data Mining",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE526 Bioinformatics Algorithms",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "2. Major Area: Software Engineering": "CSE527 Big Data Analytics",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "Non-credit pre-requisite (if not done in the Bachelor program)",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE508 Computer Networks",
+          "Credit": "3",
+          "Comment": "Pass or Fail"
+        },
+        {
+          "3. Major Area: Networking": "Compulsory Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE560 Distributed Systems and Algorithms",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE561 Advanced Network Services and Management",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "Elective Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE562 Wireless Networks",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE563 Cellular Networks",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE564 Network Security and Systems",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE565 Mobile Programming",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE521 Machine Learning",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE522 Data Mining",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "3. Major Area: Networking": "CSE527 Big Data Analytics",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "Non-credit pre-requisite (if not done in the Bachelor program)",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE509 Digital Logic Design",
+          "Credit": "3",
+          "Comment": "Pass or Fail"
+        },
+        {
+          "4. Major Area: Systems Engineering": "Compulsory Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE5570 Internet of Things",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE571 Microprocessors and Microcontrollers",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "Elective Courses",
+          "Credit": "",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE572 ASIC Design Using FPGA",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE573 VLSI Design",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE574 Robotics",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE575 Embedded Systems",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE521 Machine Learning",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE522 Data Mining",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE527 Big Data Analytics",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE560 Distributed Systems and Algorithms",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "4. Major Area: Systems Engineering": "CSE561 Advanced Network Services and Management",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "Thesis/Project": "CSE597 Master Project",
+          "Credit": "3",
+          "Comment": ""
+        },
+        {
+          "Thesis/Project": "CSE599 Master Thesis",
+          "Credit": "9",
+          "Comment": ""
+        }
+      ],
+      "requirements": [],
+      "structure": []
+    }
+  },
+  "lab_facilities": [],
+  "administrative_officials": [],
+  "metadata": {
+    "scraped_at": "2025-11-25T00:49:33.166847",
+    "source": "East West University CSE Department"
+  }
+}
