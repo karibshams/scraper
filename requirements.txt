@@ -1,5 +1,5 @@
 requests
 beautifulsoup4
 lxml
-jsonlib
 python-dateutil
+fpdf2
