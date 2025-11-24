@@ -10,6 +10,95 @@ def clean_text(text: str) -> str:
         return ""
     return re.sub(r'\s+', ' ', text).strip()
 
+def save_html_debug(soup, filename):
+    """Save prettified HTML for debugging."""
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(soup.prettify())
+    print(f"  💾 Saved HTML to {filename} for inspection")
+
+def diagnose_page_structure(url: str, page_name: str):
+    """Diagnose the page structure to understand what we're dealing with."""
+    print(f"\n{'='*60}")
+    print(f"DIAGNOSING: {page_name}")
+    print(f"URL: {url}")
+    print(f"{'='*60}")
+    
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    
+    try:
+        resp = requests.get(url, headers=headers, timeout=30)
+        resp.raise_for_status()
+        print(f"✓ Status Code: {resp.status_code}")
+        print(f"✓ Content Length: {len(resp.content)} bytes")
+    except requests.exceptions.RequestException as e:
+        print(f"✗ Error: {e}")
+        return None
+    
+    soup = BeautifulSoup(resp.content, 'lxml')
+    
+    # Save HTML for manual inspection
+    save_html_debug(soup, f'debug_{page_name.lower().replace(" ", "_")}.html')
+    
+    # Check for common content containers
+    print(f"\n📦 Checking for content containers:")
+    containers = [
+        ('div.page-content', soup.find('div', class_='page-content')),
+        ('div.container', soup.find('div', class_='container')),
+        ('div.content', soup.find('div', class_='content')),
+        ('article', soup.find('article')),
+        ('main', soup.find('main')),
+        ('div[class*="col-"]', soup.find('div', class_=re.compile(r'col-'))),
+    ]
+    
+    found_container = None
+    for name, container in containers:
+        if container:
+            print(f"  ✓ Found: {name}")
+            if not found_container:
+                found_container = container
+        else:
+            print(f"  ✗ Not found: {name}")
+    
+    if not found_container:
+        print(f"  ⚠ No standard container found, using body")
+        found_container = soup.body
+    
+    # Analyze content structure
+    print(f"\n📊 Content structure analysis:")
+    if found_container:
+        all_tags = found_container.find_all()
+        tag_counts = {}
+        for tag in all_tags:
+            tag_counts[tag.name] = tag_counts.get(tag.name, 0) + 1
+        
+        print(f"  Total elements: {len(all_tags)}")
+        print(f"\n  Top 10 most common tags:")
+        for tag, count in sorted(tag_counts.items(), key=lambda x: x[1], reverse=True)[:10]:
+            print(f"    {tag}: {count}")
+        
+        # Check for paragraphs
+        paragraphs = found_container.find_all('p')
+        print(f"\n  📝 Paragraphs found: {len(paragraphs)}")
+        if paragraphs:
+            print(f"    First paragraph preview:")
+            first_text = clean_text(paragraphs[0].get_text())
+            print(f"    '{first_text[:100]}...'")
+        
+        # Check for headings
+        headings = found_container.find_all(re.compile(r'^h[1-6]$'))
+        print(f"\n  📌 Headings found: {len(headings)}")
+        for i, h in enumerate(headings[:5]):
+            print(f"    {h.name}: {clean_text(h.get_text())[:60]}")
+        
+        # Check for tables
+        tables = found_container.find_all('table')
+        print(f"\n  📋 Tables found: {len(tables)}")
+        for i, table in enumerate(tables):
+            rows = table.find_all('tr')
+            print(f"    Table {i+1}: {len(rows)} rows")
+    
+    return soup
+
 def extract_table_data(table: Tag) -> List[List[str]]:
     """Helper function to extract data from a BeautifulSoup table tag."""
     table_data = []
@@ -22,111 +111,95 @@ def extract_table_data(table: Tag) -> List[List[str]]:
     return table_data
 
 def scrape_lab_facilities(url: str) -> Dict[str, Any]:
-    """Scrapes the Lab Facilities page with improved extraction."""
-    print(f"Scraping Lab Facilities: {url}")
+    """Scrapes the Lab Facilities page."""
+    print(f"\n{'='*60}")
+    print(f"SCRAPING LAB FACILITIES")
+    print(f"{'='*60}")
+    
     headers = {'User-Agent': 'Mozilla/5.0'}
-    data: Dict[str, Any] = {'url': url, 'title': 'Lab Facilities', 'introduction': '', 'labs': []}
+    data: Dict[str, Any] = {
+        'url': url, 
+        'title': 'Lab Facilities', 
+        'introduction': '', 
+        'labs': [],
+        'all_content': []  # Capture everything as fallback
+    }
 
     try:
         resp = requests.get(url, headers=headers, timeout=30)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.content, 'lxml')
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching {url}: {e}")
+        print(f"✗ Error: {e}")
         return data
 
-    # Find main content area
-    main_content = soup.find('div', class_=re.compile(r'page-content|col-sm-|article|container|content'))
-    if not main_content:
-        main_content = soup.body
+    # Try multiple content selectors
+    main_content = None
+    for selector in ['div.page-content', 'div.container', 'article', 'main', 'body']:
+        if '.' in selector:
+            tag, cls = selector.split('.')
+            main_content = soup.find(tag, class_=cls)
+        else:
+            main_content = soup.find(selector)
         
-    if not main_content:
-        print("Error: Could not find main content area")
-        return data
-
-    # Extract all paragraphs and headings in order
-    elements = main_content.find_all(['p', 'h2', 'h3', 'h4', 'h5', 'h6'])
-    
-    # First, capture the introductory paragraph(s)
-    intro_paras = []
-    for elem in elements:
-        text = clean_text(elem.get_text())
-        if not text:
-            continue
-            
-        # Introduction paragraphs typically come before lab-specific content
-        if elem.name == 'p' and len(text.split()) > 20:
-            # Check if this looks like intro text (mentions university, programs, etc.)
-            if any(keyword in text.lower() for keyword in ['university', 'program', 'student', 'faculty', 'department']):
-                intro_paras.append(text)
-            # Stop collecting intro when we hit a lab heading
-            if 'lab:' in text.lower() or text.endswith('Lab:'):
-                break
-        elif elem.name in ['h2', 'h3', 'h4', 'h5', 'h6']:
-            # Stop at first heading
+        if main_content:
+            print(f"✓ Using content from: {selector}")
             break
     
-    if intro_paras:
-        data['introduction'] = ' '.join(intro_paras)
-
-    # Now extract lab information
-    current_lab = None
+    if not main_content:
+        print(f"✗ Could not find content area")
+        return data
     
-    for i, elem in enumerate(elements):
-        text = clean_text(elem.get_text())
-        if not text:
-            continue
-        
-        # Detect lab headings - look for patterns like "Lab Name:" or bold lab names
-        is_lab_heading = False
-        
-        # Pattern 1: Ends with "Lab:" or "Lab."
-        if re.search(r'\bLab[:.]?\s*$', text, re.IGNORECASE):
-            is_lab_heading = True
-        
-        # Pattern 2: Contains "Lab" and is in a heading tag or bold
-        elif 'Lab' in text and (elem.name in ['h3', 'h4', 'h5', 'h6'] or elem.find(['strong', 'b'])):
-            is_lab_heading = True
-        
-        # Pattern 3: Short text (< 15 words) in bold that looks like a title
-        elif elem.name == 'p' and elem.find(['strong', 'b']) and len(text.split()) < 15:
-            # Check if next element is a longer paragraph (description)
-            next_elem = elements[i + 1] if i + 1 < len(elements) else None
-            if next_elem and next_elem.name == 'p':
-                next_text = clean_text(next_elem.get_text())
-                if len(next_text.split()) > 15:
-                    is_lab_heading = True
-        
-        if is_lab_heading:
-            # Save previous lab if exists
-            if current_lab and current_lab.get('description'):
-                data['labs'].append(current_lab)
+    # Get ALL text content as fallback
+    all_paragraphs = main_content.find_all('p')
+    print(f"✓ Found {len(all_paragraphs)} paragraphs")
+    
+    for p in all_paragraphs:
+        text = clean_text(p.get_text())
+        if text and len(text) > 20:
+            data['all_content'].append(text)
+    
+    # Try to find structured lab content
+    # Look for bold text followed by descriptions
+    for i, p in enumerate(all_paragraphs):
+        # Check if this paragraph has bold text
+        bold = p.find(['strong', 'b'])
+        if bold:
+            lab_name = clean_text(bold.get_text())
             
-            # Start new lab
-            current_lab = {
-                'name': text.rstrip(':. '),
-                'description': ''
-            }
-        
-        # Collect description for current lab
-        elif current_lab and elem.name == 'p':
-            # This paragraph belongs to the current lab
-            if len(text.split()) > 10:  # Meaningful description
-                if current_lab['description']:
-                    current_lab['description'] += ' ' + text
-                else:
-                    current_lab['description'] = text
+            # Check if this looks like a lab name
+            if 'Lab' in lab_name or 'System' in lab_name:
+                # Get description from this paragraph or next
+                desc_text = clean_text(p.get_text())
+                
+                # If the bold text is the whole paragraph, get next paragraph
+                if desc_text == lab_name and i + 1 < len(all_paragraphs):
+                    desc_text = clean_text(all_paragraphs[i + 1].get_text())
+                
+                if len(desc_text) > len(lab_name) + 20:
+                    data['labs'].append({
+                        'name': lab_name,
+                        'description': desc_text
+                    })
+                    print(f"  ✓ Found lab: {lab_name}")
     
-    # Add the last lab
-    if current_lab and current_lab.get('description'):
-        data['labs'].append(current_lab)
+    # Extract introduction (first substantial paragraph)
+    for p in all_paragraphs:
+        text = clean_text(p.get_text())
+        if len(text.split()) > 30:
+            data['introduction'] = text
+            print(f"✓ Found introduction ({len(text)} chars)")
+            break
     
-    print(f"  → Extracted {len(data['labs'])} labs")
+    print(f"\n📊 Results: {len(data['labs'])} labs, {len(data['all_content'])} paragraphs total")
     return data
 
 def scrape_tuition_fees(url: str) -> Dict[str, Any]:
-    """Scrapes the Tuition Fees page with improved extraction."""
-    print(f"Scraping Tuition Fees: {url}")
+    """Scrapes the Tuition Fees page."""
+    print(f"\n{'='*60}")
+    print(f"SCRAPING TUITION FEES")
+    print(f"{'='*60}")
+    
     headers = {'User-Agent': 'Mozilla/5.0'}
     data: Dict[str, Any] = {
         'url': url, 
@@ -140,30 +213,36 @@ def scrape_tuition_fees(url: str) -> Dict[str, Any]:
         resp.raise_for_status()
         soup = BeautifulSoup(resp.content, 'lxml')
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching {url}: {e}")
+        print(f"✗ Error: {e}")
         return data
 
-    main_content = soup.find('div', class_=re.compile(r'page-content|col-sm-|article|container|content'))
-    if not main_content:
-        main_content = soup.body
-
-    if not main_content:
-        print("Error: Could not find main content area")
-        return data
-
-    # Extract all tables
-    tables = main_content.find_all('table')
-    
-    for table in tables:
-        # Find the table heading (look backwards for h2, h3, h4)
-        title = None
-        prev_elem = table.find_previous(['h2', 'h3', 'h4', 'h5'])
-        
-        if prev_elem:
-            title = clean_text(prev_elem.get_text())
+    # Find main content
+    main_content = None
+    for selector in ['div.page-content', 'div.container', 'article', 'main', 'body']:
+        if '.' in selector:
+            tag, cls = selector.split('.')
+            main_content = soup.find(tag, class_=cls)
         else:
-            # Try to infer from context
-            title = "Fee Table"
+            main_content = soup.find(selector)
+        
+        if main_content:
+            print(f"✓ Using content from: {selector}")
+            break
+
+    if not main_content:
+        print(f"✗ Could not find content area")
+        return data
+
+    # Extract tables
+    tables = main_content.find_all('table')
+    print(f"✓ Found {len(tables)} tables")
+    
+    for i, table in enumerate(tables):
+        # Look for table title
+        title = f"Fee Table {i+1}"
+        prev_heading = table.find_previous(re.compile(r'^h[2-6]$'))
+        if prev_heading:
+            title = clean_text(prev_heading.get_text())
         
         table_data = extract_table_data(table)
         
@@ -172,76 +251,54 @@ def scrape_tuition_fees(url: str) -> Dict[str, Any]:
                 'title': title,
                 'data': table_data
             })
+            print(f"  ✓ Extracted table: {title} ({len(table_data)} rows)")
     
-    # Extract additional information (paragraphs and lists near tables)
-    all_text_elements = main_content.find_all(['p', 'li', 'div'])
+    # Extract additional text
+    for p in main_content.find_all('p'):
+        text = clean_text(p.get_text())
+        if text and len(text) > 20 and text not in data['additional_info']:
+            data['additional_info'].append(text)
     
-    for elem in all_text_elements:
-        # Skip if element contains a table
-        if elem.find('table'):
-            continue
-        
-        text = clean_text(elem.get_text())
-        
-        # Filter criteria
-        if (text and 
-            len(text.split()) > 3 and  # More than 3 words
-            'Faculty Member' not in text and  # Not navigation
-            text not in data['additional_info']):  # Not duplicate
-            
-            # Check if it's meaningful content
-            if any(char.isalnum() for char in text):
-                data['additional_info'].append(text)
-    
-    print(f"  → Extracted {len(data['tables'])} tables and {len(data['additional_info'])} additional notes")
+    print(f"\n📊 Results: {len(data['tables'])} tables, {len(data['additional_info'])} notes")
     return data
 
 def main():
-    """Main function to orchestrate the scraping and saving."""
+    """Main function."""
     
-    print("=" * 60)
-    print("EWU CSE Department Web Scraper")
-    print("=" * 60)
+    print("\n" + "="*60)
+    print("EWU CSE DEPARTMENT WEB SCRAPER - DIAGNOSTIC MODE")
+    print("="*60)
     
-    all_data = {}
-    
-    # Lab Facilities
+    # URLs
     lab_url = "https://fse.ewubd.edu/computer-science-engineering/lab-facilities"
-    all_data['lab_facilities'] = scrape_lab_facilities(lab_url)
-    
-    # Tuition Fees
     fee_url = "https://fse.ewubd.edu/computer-science-engineering/tuition-fees"
+    
+    # First, diagnose both pages
+    print("\n🔍 PHASE 1: DIAGNOSIS")
+    diagnose_page_structure(lab_url, "Lab Facilities")
+    diagnose_page_structure(fee_url, "Tuition Fees")
+    
+    # Now scrape with informed approach
+    print("\n\n🔍 PHASE 2: SCRAPING")
+    all_data = {}
+    all_data['lab_facilities'] = scrape_lab_facilities(lab_url)
     all_data['tuition_fees'] = scrape_tuition_fees(fee_url)
     
-    # Save JSON
+    # Save results
     output_filename = 'ewu_cse_complete_data.json'
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(all_data, f, ensure_ascii=False, indent=2)
     
-    # Summary
-    print("\n" + "=" * 60)
+    # Final summary
+    print("\n" + "="*60)
     print("✅ SCRAPING COMPLETE!")
-    print("=" * 60)
-    print(f"Lab Facilities:")
-    print(f"  • Introduction: {'Yes' if all_data['lab_facilities']['introduction'] else 'No'}")
-    print(f"  • Labs extracted: {len(all_data['lab_facilities']['labs'])}")
-    
-    if all_data['lab_facilities']['labs']:
-        print(f"\n  Lab names:")
-        for lab in all_data['lab_facilities']['labs']:
-            print(f"    - {lab['name']}")
-    
-    print(f"\nTuition Fees:")
-    print(f"  • Tables extracted: {len(all_data['tuition_fees']['tables'])}")
-    print(f"  • Additional notes: {len(all_data['tuition_fees']['additional_info'])}")
-    
-    if all_data['tuition_fees']['tables']:
-        print(f"\n  Table titles:")
-        for table in all_data['tuition_fees']['tables']:
-            print(f"    - {table['title']}")
-    
-    print(f"\n📄 Data saved to: {output_filename}")
-    print("=" * 60)
+    print("="*60)
+    print(f"\n📄 Files created:")
+    print(f"  • {output_filename}")
+    print(f"  • debug_lab_facilities.html")
+    print(f"  • debug_tuition_fees.html")
+    print(f"\n💡 Check the debug HTML files to see the actual page structure")
+    print("="*60)
 
 if __name__ == '__main__':
     main()
