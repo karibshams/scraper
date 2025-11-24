@@ -1,0 +1,78 @@
+{
+  "url": "https://fse.ewubd.edu/computer-science-engineering/graduate-programs",
+  "program_name": "Master of Science in Computer Science and Engineering",
+  "program_abbreviation": "MS in CSE",
+  "major_areas": {
+    "description": "The Master of Science in Computer Science and Engineering (MS in CSE) program is organized into four major areas:",
+    "areas": [
+      "The Master of Science",
+      "in Computer Science",
+      "Data Science",
+      "Software Engineering",
+      "Networking Systems"
+    ],
+    "change_policy": "A student will have to declare her/his major area during enrollment into the program. However, a student can change her/his major area before"
+  },
+  "admission_requirements": {
+    "description": "Candidates must have a 4-year Bachelor degree in any of the following disciplines with a minimum CGPA of 2.5 on a 4.0 point scale or equivalent standing from any recognized institution: Computer Science and Engineering/ Computer Science/ Computer Engineering/ Software Engineering/ Information and Communications Engineering/ Equivalent Any engineering discipline with calculus, statistics, and pro",
+    "eligible_disciplines": [
+      "year Bachelor degree in any of the following disciplines with a minimum CGPA of 2.5 on a 4.0 point scale or equivalent standing from any recognized institution:",
+      "requisite course(s) needed)",
+      "requisite course(s) needed)"
+    ],
+    "minimum_cgpa": "minimum CGPA of 2.5",
+    "hsc_requirement": "0 point scale or equivalent standing from any recognized institution: Computer Science and Engineering/ Computer Science/ Computer Engineering/ Software Engineering/ Information and Communications Engineering/ Equivalent Any engineering discipline with calculus, statistics, and programming (pre-requisite course(s) needed) Any physical/mathematical/biological science discipline with calculus, statistics, and programming (pre-requisite course(s) needed) Candidates must have passed HSC/Equivalent program from Science group.",
+    "admission_test": "Candidates must pass an admission test administered by the university.",
+    "all_requirements": [
+      "Candidates must have a 4-year Bachelor degree in any of the following disciplines with a minimum CGPA of 2.",
+      "Candidates must have passed HSC/Equivalent program from Science group.",
+      "Candidates must pass an admission test administered by the university."
+    ]
+  },
+  "study_tracks": {
+    "description": "A student can pursue the MS in CSE program in either of two tracks: Thesis Track Project Track A student will have to declare her/ his study track during enrollment into the program. However, a student can change her/his study track during the progress of the program with the permission of the Chai",
+    "tracks": [
+      "Thesis Track",
+      "Project Track"
+    ],
+    "change_policy": "A student will have to declare her/ his study track"
+  },
+  "program_length": {
+    "minimum": "",
+    "maximum": "15 semester",
+    "full_description": "The length of the MS in CSE program is 3 semesters (one year). However, students may take up to 15 semester (five years) for completing the degree."
+  },
+  "program_cost": {
+    "raw_amounts": [
+      "40.0",
+      "6,000",
+      "240,000",
+      "9,060",
+      "20,000",
+      "269,060"
+    ]
+  },
+  "degree_requirements": {
+    "description": "A candidate for the degree of MS in CSE must complete at least 33 credits with a minimum CGPA of 2.5 on a 4.0 point scale. The course requirements will be as follows.",
+    "minimum_credits": "33 credits",
+    "minimum_cgpa": "2.5 on a 4.0",
+    "thesis_track": {
+      "raw_text": "",
+      "courses": []
+    },
+    "project_track": {
+      "raw_text": "A student will have to declare her/ his study track during enrollment into the program. However, a student can change her/his study track during the progress of the program with the permission of the Chairperson of the Department. Length of the Program: The length of the MS in CSE program is 3 semesters (one year). However, students may take up to 15 semester (five years) for completing the degree. MS in CSE Program Cost: Name of Programs Total Credit Fee per Credit Tuition Fees Lab & Activities Fees Admission Fee Grand Total MS in CSE 40.0 6,000/= 240,000/= 9,060/= 20,000/= 269,060/=",
+      "courses": []
+    }
+  },
+  "course_summary": {
+    "compulsory_all_majors": {
+      "prerequisite": [],
+      "compulsory": []
+    }
+  },
+  "major_specific_courses": [],
+  "thesis_project": {
+    "raw": "Thesis/Project Credit Comment CSE597 Master Project 3 CSE599 Master Thesis 9 Department of Computer Science & Engineering Faculty Member Undergraduate Programs Graduate Programs Tuition Fees Publications Research Area Lab Facilities Administrative Officials News Notices Events Achievements Contact Us Your Bright Future is Our Mission Click to Apply Online Apply Now Department Office A/2, Jahurul Islam Avenue Jahurul Islam City, Aftabnagar Dhaka-1212, Bangladesh 09666775577 | Ext. – 206 cse@ewubd.edu Student Academic Calendar Campus Life Payment Procedure Convocation Rules & Regulation Faculty Search Grading Policy University Directory Proctor Schedule E-Tender Procurement Gallery Journal and Publications Archives Quick Links Apply Online Jobs at EWU"
+  }
+}
